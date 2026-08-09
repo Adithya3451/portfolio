@@ -51,11 +51,11 @@ ul{
     color:#3b82f6;
 }
 .hero{
-    min-height:90vh;
+    min-height:80vh;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:0 10%;
+    padding:80px 10%;
 }
 
 .hero-content{
@@ -96,8 +96,7 @@ ul{
     background:#2563EB;
 }
 .about{
-    min-height:70vh;
-    padding:100px 10%;
+    padding:80px 10%;
     text-align:center;
 }
 
@@ -115,7 +114,7 @@ ul{
     color:#94A3B8;
 }
 .skills{
-    padding:100px 10%;
+    padding:70px 10%;
     text-align:center;
 }
 
@@ -154,7 +153,7 @@ ul{
     transform:translateY(-8px);
 }
 .projects{
-    padding:100px 10%;
+    padding:70px 10%;
     text-align:center;
 }
 
@@ -198,7 +197,7 @@ ul{
     margin:20px 0;
 }
 .contact{
-    padding:100px 10%;
+    padding:70px 10%;
     text-align:center;
 }
 
@@ -213,4 +212,71 @@ ul{
     margin:0 auto 30px;
     color:#94A3B8;
     line-height:1.7;
+}
+@media (max-width: 768px){
+
+    .navbar{
+        padding:20px 5%;
+    }
+
+    .nav-links{
+        gap:15px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    .hero{
+        padding:60px 5%;
+        text-align:center;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .hero-content h2{
+        font-size:26px;
+    }
+
+    .hero-content p{
+        font-size:17px;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .contact{
+        padding:70px 5%;
+    }
+
+    .about h2,
+    .skills h2,
+    .projects h2,
+    .contact h2{
+        font-size:34px;
+    }
+
+    .skill-card{
+        width:100%;
+        max-width:350px;
+    }
+
+    .project-card{
+        width:100%;
+    }
+}
+footer{
+    padding:30px 10%;
+    text-align:center;
+    border-top:1px solid #1E293B;
+}
+
+footer p{
+    color:#64748B;
+    font-size:14px;
+}
+html{
+    scroll-behavior:smooth;
 }
