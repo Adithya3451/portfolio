@@ -519,3 +519,176 @@ footer p {
         transform: none;
     }
 }
+@media (max-width: 700px) {
+    html {
+        scroll-padding-top: 125px;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: clip;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 14px 16px;
+        gap: 12px;
+    }
+
+    .navbar nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px 18px;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+        padding: 3px 0;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 55px 20px 45px;
+        gap: 28px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(34px, 9vw, 48px);
+        line-height: 1.15;
+        letter-spacing: -1.2px;
+        overflow-wrap: anywhere;
+    }
+
+    .description,
+    .section-description {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .hero-actions {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .hero-actions .btn {
+        flex: 1 1 180px;
+        min-width: 0;
+        text-align: center;
+        padding: 12px 14px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        width: 100%;
+        min-width: 0;
+        max-width: 360px;
+        height: 290px;
+        margin: 0 auto;
+        transform: none;
+        transform-origin: center;
+    }
+
+    .orbit-one {
+        width: 270px;
+        height: 270px;
+    }
+
+    .orbit-two {
+        width: 220px;
+        height: 220px;
+    }
+
+    .code-card {
+        width: min(290px, calc(100% - 24px));
+        padding: 22px;
+    }
+
+    .section {
+        width: 100%;
+        padding: 65px 20px;
+    }
+
+    .section h2 {
+        font-size: clamp(29px, 7.5vw, 38px);
+        overflow-wrap: anywhere;
+    }
+
+    .skills-container,
+    .projects-container {
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .skill-card,
+    .project-card {
+        width: 100%;
+        min-width: 0;
+        padding: 22px;
+    }
+
+    .project-card h3 {
+        overflow-wrap: anywhere;
+    }
+
+    .tech-stack {
+        gap: 7px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 26px 20px;
+        gap: 12px;
+    }
+
+    footer p {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar nav {
+        gap: 6px 13px;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        flex: auto;
+    }
+
+    .section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .skill-card,
+    .project-card {
+        padding: 18px;
+    }
+}
