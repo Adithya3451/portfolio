@@ -3,123 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adithya Sarma P | Software Developer</title>
+    <meta name="description" content="Adithya Sarma P. — Integrated MCA student interested in software development and building practical web applications.">
+    <meta name="theme-color" content="#080d1b">
+    <title>Adithya Sarma P. | Software Developer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<script src="script.js"></script>
 <body>
-    <nav class="navbar">
-    <div class="logo">Adithya.</div>
+    <header class="navbar">
+        <a class="logo" href="#home">Adithya<span>.</span></a>
 
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-<section id="home" class="hero">
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <div class="hero-content">
-
-        <p>Hello, I'm</p>
-
-        <h1>Adithya Sarma P</h1>
-
-        <h2>Software Developer</h2>
-
-        <p class="description">
-            Passionate about building modern web applications and solving real-world problems through clean and efficient code.
-        </p>
-
-        <a href="#projects" class="btn">
-            View My Projects
-        </a>
-
-    </div>
-
-</section>
-<section id="about" class="about">
-
-    <h2>About Me</h2>
-
-    <p>
-        I'm an Integrated MCA student passionate about software development,
-        web development, and solving problems through logical thinking.
-        I enjoy turning ideas into practical applications and continuously
-        improving my technical skills.
-    </p>
-
-</section>
-<section id="skills" class="skills">
-
-    <h2>Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <h3>Languages</h3>
-            <p>C • Java • Python • JavaScript</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Web Development</h3>
-            <p>HTML • CSS • JavaScript</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Tools</h3>
-            <p>Git • GitHub • VS Code</p>
-        </div>
-
-    </div>
-
-</section>
-<section id="projects" class="projects">
-
-    <h2>Projects</h2>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-            <div class="project-content">
-                <h3>Programming Revision</h3>
-
-                <p>
-                    A structured repository documenting my programming
-                    revision, problem-solving practice, and development journey.
+    <main>
+        <section id="home" class="hero reveal">
+            <div class="hero-content">
+                <p class="eyebrow">INTEGRATED MCA STUDENT · DEVELOPER</p>
+                <h1>Building ideas into <span>real solutions.</span></h1>
+                <p class="description">
+                    Hi, I'm Adithya Sarma P. I enjoy software development,
+                    solving problems, and building practical applications
+                    while continuously improving my skills.
                 </p>
 
-                <p class="tech-stack">
-                    C • Git • GitHub
-                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Explore my work ↗</a>
+                    <a href="assets/Adithya_Sarma_Resume.pdf"
+                       class="btn btn-secondary" download>
+                        Download Resume ↓
+                    </a>
+                </div>
 
-                <a href="https://github.com/Adithya3451/programming_revision" class="btn">
-                    View Project
+                <div class="social-links">
+                    <a href="https://github.com/Adithya3451"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/adithya-sarma-p-107827378/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="code-card">
+                    <p class="code-label">CURRENT FOCUS</p>
+                    <p><span>const</span> goal = <strong>"Build"</strong>;</p>
+                    <p><span>const</span> learn = <strong>true</strong>;</p>
+                    <p><span>const</span> improve = <strong>always</strong>;</p>
+                    <div class="code-status"><span></span> Learning by building</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section reveal">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>Curious mind. <span>Builder's mindset.</span></h2>
+            <p class="section-description">
+                I'm an Integrated MCA student at Amrita Vishwa Vidyapeetham
+                with an interest in software and web development. I enjoy
+                turning ideas into working applications, learning new
+                technologies, and improving through hands-on projects.
+            </p>
+        </section>
+
+        <section id="skills" class="section reveal">
+            <p class="eyebrow">MY TOOLKIT</p>
+            <h2>Skills I'm <span>building on.</span></h2>
+
+            <div class="skills-container">
+                <article class="skill-card">
+                    <h3>Languages</h3>
+                    <p>JavaScript · Python · Java · C</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML5 · CSS3 · JavaScript · Node.js · Express.js</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git · GitHub · VS Code</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects I've <span>built.</span></h2>
+            <p class="section-description">
+                Each project is an opportunity to learn, experiment, and
+                turn concepts into something practical.
+            </p>
+
+            <div class="projects-container">
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">01 / WEB</span>
+                        <span class="project-icon" aria-hidden="true">↗</span>
+                    </div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal website showcasing my background,
+                        technical skills, projects, and development journey.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/Adithya3451/portfolio"
+                       target="_blank" rel="noopener noreferrer">
+                        View source code ↗
+                    </a>
+                </article>
+
+                <article class="project-card featured">
+                    <div class="project-top">
+                        <span class="project-number">02 / FULL STACK</span>
+                        <span class="project-icon" aria-hidden="true">⌘</span>
+                    </div>
+                    <h3>EventFinder</h3>
+                    <p>
+                        An opportunity discovery application for exploring
+                        hackathons, coding contests, competitions, and
+                        innovation challenges with search and filtering.
+                    </p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span><span>Node.js</span>
+                        <span>Express.js</span><span>API</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/Adithya3451/event_finder"
+                       target="_blank" rel="noopener noreferrer">
+                        View source code ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">03 / PRACTICE</span>
+                        <span class="project-icon" aria-hidden="true">⌘</span>
+                    </div>
+                    <h3>Programming Revision</h3>
+                    <p>
+                        A repository documenting programming revision,
+                        coding practice, and my ongoing problem-solving journey.
+                    </p>
+                    <div class="tech-stack">
+                        <span>C</span><span>Git</span><span>GitHub</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/Adithya3451/programming_revision"
+                       target="_blank" rel="noopener noreferrer">
+                        View repository ↗
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact reveal">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Have an idea? <span>Let's talk.</span></h2>
+            <p class="section-description">
+                I'm interested in learning, building useful software,
+                and connecting with people in tech.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary"
+                   href="mailto:adithyasarmap@gmail.com">Email me ↗</a>
+                <a class="btn btn-secondary"
+                   href="https://www.linkedin.com/in/adithya-sarma-p-107827378/"
+                   target="_blank" rel="noopener noreferrer">
+                    Connect on LinkedIn ↗
                 </a>
             </div>
-        </div>
+        </section>
+    </main>
 
-    </div>
-
-</section>
-<section id="contact" class="contact">
-
-    <h2>Let's Connect</h2>
-
-    <p>
-        I'm always interested in learning, building, and connecting
-        with people in the tech community.
-    </p>
-
-    <a href="mailto:YOUR_EMAIL_HERE" class="btn">
-       Get In Touch
-    </a>
-
-</section>
-<footer>
-    <p>© 2026 Adithya Sarma P. All rights reserved.</p>
-</footer>
+    <footer>
+        <a class="logo" href="#home">Adithya<span>.</span></a>
+        <p>Designed and built by Adithya Sarma P. · © 2026</p>
+        <a href="https://github.com/Adithya3451"
+           target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </footer>
 </body>
 </html>
